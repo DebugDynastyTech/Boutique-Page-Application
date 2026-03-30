@@ -1,6 +1,6 @@
 # Boutique App — Production Ready
 
-WebView wrapper for `https://1it.in/boutique-page/adm_control/login`
+WebView wrapper for `https://app.boutiquepage.in/login`
 with animated gold luxury splash screen.
 
 ---
@@ -82,5 +82,5 @@ babel.config.js   ← babel-preset-expo
 
 Edit `app/index.tsx`, line 12:
 ```ts
-const WEBSITE_URL = 'https://1it.in/boutique-page/adm_control/login';
+const WEBSITE_URL = 'https://app.boutiquepage.in/login';
 ```
