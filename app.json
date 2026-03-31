@@ -4,7 +4,7 @@
     "slug": "boutique-page",
     "version": "1.0.0",
     "sdkVersion": "52.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -14,7 +14,7 @@
       "backgroundColor": "#0a2a2a"
     },
     "ios": {
-      "supportsTablet": false,
+      "supportsTablet": true,
       "bundleIdentifier": "com.boutique.app",
       "infoPlist": {
         "NSAppTransportSecurity": {
