@@ -15,7 +15,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.boutique.app",
+      "bundleIdentifier": "com.ondtechsol.boutiquepage",
       "infoPlist": {
         "NSAppTransportSecurity": {
           "NSAllowsArbitraryLoads": true
@@ -27,11 +27,8 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#0a2a2a"
       },
-      "package": "com.boutique.app",
-      "versionCode": 1,
-      "compileSdkVersion": 35,
-      "targetSdkVersion": 35,
-      "minSdkVersion": 24,
+      "package": "com.ondtechsol.boutiquepage",
+      "versionCode": 2,
       "permissions": [
         "android.permission.INTERNET",
         "android.permission.ACCESS_NETWORK_STATE"
@@ -49,6 +46,16 @@
           "backgroundColor": "#0a2a2a",
           "image": "./assets/splash.png",
           "imageWidth": 200
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "minSdkVersion": 24
+          }
         }
       ]
     ],
