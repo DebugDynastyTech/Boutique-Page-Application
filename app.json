@@ -28,7 +28,8 @@
         "backgroundColor": "#0a2a2a"
       },
       "package": "com.ondtechsol.boutiquepage",
-      "versionCode": 2,
+      "versionCode": 3,
+      "softwareKeyboardLayoutMode": "resize",
       "permissions": [
         "android.permission.INTERNET",
         "android.permission.ACCESS_NETWORK_STATE"
